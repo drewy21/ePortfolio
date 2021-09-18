@@ -25,25 +25,25 @@
     <h2>Project Idea</h2>
     <p>
     <h3>Overview</h3>
-    This project brings together a range of technologies to create an ‘open-source gaming platform’ that is very accessible to secondary students with a computer and some easy to source parts. It will allow the students to design their own original game controller that can be customised easily to their taste with simple materials and a small amount of soldering for wiring. There will be an interfacing box created that connects the controller to a computer. With the use of an open-source program, the students can develop their own open-source games with the controller to interact with the game, instead of regular keyboard controls. The aim of this project is to make a connection between hardware and software through an instantly engaging topic for secondary aged students.
+    This project brings together a range of technologies to create an ‘open-source gaming platform’ that is very accessible to secondary students with a computer and some easy to source parts. It will allow the students to design their own original game controller that can be customised easily to their taste, with simple materials and a small amount of soldering for wiring. There will be an interfacing box created that connects the controller to a computer. With the use of an open-source program, the students can develop their own open-source games with the controller to interact with the game, instead of regular keyboard controls. The aim of this project is to make a connection between hardware and software through an instantly engaging topic for secondary aged students.
     <hr>
     <h3>Motivation</h3>
     This project idea was hatched from a year 8 technology subject at my school. There were two modules to this subject, one including programming using some free software and the other working with simple electronic circuits from cardboard, copper tape and a small range of electronic components. These two areas were somewhat related, but there wasn’t a strong connection between the two. I identified that this was the case and came up with an idea that could bring the two together, which involves the use of a simple cardboard control circuit to interact with a programmed game on a computer. The Arduino platform appears to be the key to make this connection.
     <hr>
     <h3>Description</h3>
-    <p>This project has 3 main parts to it, with a game controller, an interfacing box and the gaming software. This makes up the open-source gaming platform I wish to develop for use with junior secondary school aged students as a way to engage students in a pass time that is already popular for their age bracket. This is to help establish connections between the programming side and the hardware side to interact and provide inputs to it.
+    <p>This project has 3 main parts to it, with a game controller, an interfacing box and the gaming software. This makes up the open-source gaming platform I wish to develop for use with junior secondary school aged students. It will engage them as it directly links to a pass time that is already popular for their age bracket. Therefore, helping students to make better connections between programming and electronics, with the ability to interact between the two.
     </P>
-    <p>The project starts with a simple game controller that students are able to construct with a paper template, cardboard, pine timber and adhesive copper tape, that needs to be glued together and cut to size and fitted. Once the controller is constructed it will need to be wired by preparing and soldering on the hook up wire. I would suggest a set design for the students first,  so that they have a greater chance of success at getting it to work, before they could be allowed to modify or come up with their own design.
+    <p>The project starts with a simple game controller that students are able to construct with a paper template, cardboard, pine timber and adhesive copper tape, that needs to be glued together, cut to size and fitted. Once the controller is constructed it will need to be wired by preparing and soldering on the hook up wire. I would suggest a set design for the students first,  so that they have a greater chance of success at getting it to work, before they could be allowed to modify or come up with their own design.
     </P>
-    <p>The next part would be the development of the interfacing box, that is the bridge between the game controller and the game played on the computer. The interfacing box is simply an Arduino Nano placed in an adapter board that has screw terminals to easily allow the hook up of the wiring from the game controller and an Arduino cable to connect to the computer. The interfacing box will require a 3D printed case for presentation, safety and to keep it clean. This will require the design of a case in Tinkercad to be exported as an STL file for printing on a 3D printer. The Arduino can then be screwed securely to the printed case for safe usage.
+    <p>The next part would be the development of the interfacing box, that is the bridge between the game controller and the game played on the computer. The interfacing box is simply an Arduino Nano placed in an adapter board that has screw terminals to easily allow the hook up of the wiring from the game controller, and an Arduino cable to connect to the computer. The interfacing box will require a 3D printed case for presentation, safety and to keep it clean. This will require the design of a case in Tinkercad to be exported as an STL file for printing on a 3D printer. The Arduino can then be screwed securely to the printed case for safe usage.
     </p>
-    <p>The hook up wire from the game controller is then screwed into place on the Arduino adapter board paying special attention to which pins they are attached to. The interfacing box is connected via the USB cable to the computer. A serial sketch will need to be developed which tests to see that the buttons on the game controller work and work correctly. The game controller will have some sort of directional control buttons as well as other function buttons for other actions required by the game played. They are all essentially simple push switches.
+    <p>The hook up wire from the game controller is then screwed into place on the Arduino adapter board, paying special attention to which pins they are attached to. The interfacing box is connected via the USB cable to the computer. A serial sketch will need to be developed which tests to see that the buttons on the game controller work and work correctly. The game controller will have some sort of directional control buttons as well as other function buttons for other actions required by the game played. They are all essentially simple push switches.
     </p>
     <p>The last part of the project is the game program. Processing 3 will be used due to its ease of use by students. A simple test sketch needs to be developed that listens for serial communication. Likewise, the Arduino will need a sketch that takes the input from the controller and sends a serial signal to the computer through the connected USB cable.
     </P>
-    <p>Once the serial communication is successful and an action can be enabled then other actions such as directional movement can be calibrated in with specific serial signals. This may be tested by the use of moving box around the Processing window. Following this the other buttons are to be calibrated for control.
+    <p>Once the serial communication is successful and an action can be enabled then other actions such as directional movement can be calibrated in with specific serial signals. This may be tested by way of moving box around the Processing window. Following this, the other buttons are to be calibrated for control.
     </P>
-    <p>With successful serial communication between the controller, interfacing box and the Processing program, a start-up game can be used by students to get a feel for the controller. Something along the lines of Pong or Snake. From here games such as Space invader and alike can be developed and built upon.
+    <p>With successful serial communication between the controller, interfacing box and the Processing program, a start-up game can be used by students to get a feel for the controller. Something along the lines of Pong or Snake. From here games such as Space invaders and alike can be developed and built upon.
     </P>
     <hr>
     <h3>Tools and Technologies</h3>
@@ -56,7 +56,7 @@
     <h3>Skills Required</h3>
     <ul>
       <li><b>Arduino skills:</b> Pin layout, connection by usb and com port, C++ programming language, IDE usage, Serial monitor usage for problem solving, circuit connection.</li>
-        <li><b>Processing skills:</b> Java programming language, game construction and logic.</li>
+        <li><b>Processing skills:</b> Java/Javascript programming language, game construction and logic.</li>
           <li><b>Tinkercad skills:</b> basic modelling techniques, export project as an .stl file.</li>
             <li><b>Flashforge skills:</b> import and orientate project, print settings.</li>
               <li><b>MS Word:</b> manipulate shapes for accurate controller template layout.</li>
@@ -64,10 +64,10 @@
     <hr>
     <h3>Outcome</h3>
     <b>What will be the outcome?</b>
-    <p>The opportunity for students to experiment with the creation of a self-designed gaming platform with their own branding along with the chance to develop or customise games themselves. This will help to engage students in both fields of study.
+    <p>The opportunity for students to experiment with the creation of a self-designed gaming platform with their own branding, along with the chance to develop or customise games themselves. This will help to engage students in both fields of study.
     </p>
     <b>How will the original problem be solved?</b>
-    <p>Students will be more engaged and see the connection between programming and electronics which essentially underpins the whole gaming field, giving students understanding and buy in to the importance of technology in their daily lives.
+    <p>Students will be more engaged and see the connection between programming and electronics which essentially underpins the whole gaming field, giving students understanding and buy in, to the importance of technology in their daily lives.
     </p>
     <b>What impact will this development have?</b>
     <p>As stated, the students will have a greater sense of purpose in applying the skills they have learnt in the two somewhat separate modules, but with more students involved in this platform a community of makers can be established beyond the walls of a single school.
