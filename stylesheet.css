@@ -64,18 +64,23 @@ h2 {
 }
 
 #nav-buttons{
+  display: flex;
   margin-left: 15%;
   margin-right: 15%;
-  width: 70%;
+  width: 70%;/*test*/
+  height: auto;/*test*/
+  justify-content: space-between;/*test*/
 
 }
 
 button {
-  display:inline-block;
+  /*display:inline-block;*/
+  /*display: flex;/*test*/
+  /*justify-content: space-between;/*test*/
   background-color: grey;
   color: white;
   /*width: 50%;*/
-  height: auto;
+  /*height: auto;*/
   margin-top:20px;
   margin-left: 10px;
   margin-right: 10px;
